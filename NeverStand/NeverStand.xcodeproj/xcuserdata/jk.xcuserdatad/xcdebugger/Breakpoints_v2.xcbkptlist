@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "418BAF99-4144-486E-A115-072D4CBA3F09"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19F645A9-3B6D-4FF9-9709-4FE4629CD899"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeverStand/CarWeightAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "filterRelevantStations(_:beaconStationID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE665AE6-0548-4960-B61E-3DDBF61D69F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeverStand/BeaconManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "fetchCarWeightData(stationID:stationName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE665AE6-0548-4960-B61E-3DDBF61D69F2 - 142cc432a4c95112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;NeverStand.RankedCarWeight&gt;, Swift.Error&gt;) -&gt; () in NeverStand.BeaconManager.fetchCarWeightData(stationID: Swift.String, stationName: Swift.String) -&gt; ()"
+                  moduleName = "NeverStand.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jk/Desktop/%E5%B8%AB%E5%A4%A7%E5%9C%A8%E8%81%B7/paper/project/NeverStand/NeverStand/BeaconManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "220"
+                  endingLineNumber = "220">
+               </Location>
+               <Location
+                  uuid = "EE665AE6-0548-4960-B61E-3DDBF61D69F2 - afd3186dabe06c10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NeverStand.RankedCarWeight) -&gt; Swift.String in closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;NeverStand.RankedCarWeight&gt;, Swift.Error&gt;) -&gt; () in NeverStand.BeaconManager.fetchCarWeightData(stationID: Swift.String, stationName: Swift.String) -&gt; ()"
+                  moduleName = "NeverStand.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jk/Desktop/%E5%B8%AB%E5%A4%A7%E5%9C%A8%E8%81%B7/paper/project/NeverStand/NeverStand/BeaconManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
