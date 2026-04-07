@@ -53,3 +53,19 @@ NeverStandApp.swift:程式進入點，初始化 BeaconManager。
 └─UI 介面
 　　└─ContentView.swift: 主畫面。包含掃描開關、狀態顯示以及建議車廂列表的 UI。
 ```
+
+---
+
+# 🤖 LABC NeverStand - Android
+Android版本已建立基礎架構。
+[.apk檔案。位置下載連結](https://drive.google.com/drive/folders/1-dTGtNrr_9qGooFFZiYj494NEfg7nbHP)
+
+### 核心技術與環境
+* **開發語言與建置**：使用 Kotlin 開發，並採用 Gradle (Kotlin DSL, `build.gradle.kts`) 作為專案的建置系統。
+* **藍牙與定位**：應用 Android 原生的 Bluetooth LE API 與定位服務，進行 Beacon 訊號掃描與背景偵測。
+
+### 安裝與執行指引
+1. **取得程式碼**：將本專案 Clone 至本地端，並確認切換至 `android` 分支。
+2. **開啟專案**：建議使用最新版本的 **Android Studio** 開啟專案資料夾。
+3. **權限設定**：Android 版本同樣需要宣告並請求藍牙與定位權限，請確保實體測試裝置已開啟相關設定（如 `ACCESS_FINE_LOCATION`、`BLUETOOTH_SCAN` 等）。
+4. **實機測試**：由於 Android 模擬器無法完整支援藍牙 Beacon 掃描功能，請務必連接實體 Android 手機進行編譯與測試。
